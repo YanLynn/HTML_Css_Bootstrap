@@ -12,14 +12,14 @@ class pagesController extends Controller
     }
     public function html()
     {
-        return view('html');
+        return view('html.html');
     }
     public function css()
     {
-        return view('css');
+        return view('css.css');
     }
     public function bootstrap()
     {
-        return view('bootstrap');
+        return view('bootstrap.bootstrap');
     }
 }
